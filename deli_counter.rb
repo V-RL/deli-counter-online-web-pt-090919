@@ -11,7 +11,7 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
-  counter = 0 
+  counter = katz_deli.length
   if katz_deli.length >= 0
     katz_deli.push"#{name}" 
     counter += 1 
